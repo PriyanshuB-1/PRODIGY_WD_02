@@ -1,0 +1,41 @@
+body{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+     background-image: url(background.jpg);
+     background-position:center;
+ }
+ #container{
+     color:rgb(255, 255, 255);
+     background-color:rgba(168, 44, 221, 0.222);
+ }
+ .digit{
+     font-size: 100px;
+     font-weight: bold;
+ }
+ .text{
+     font-size: 40px;
+     font-weight: bold;
+ }
+ #btn-container{
+     text-align: center;
+     margin-top: 45px;
+ }
+ .btn{
+     padding:5px 25px;
+     font-size: 18px;
+     margin:0 10px;
+     color:white;
+     cursor:grab;
+ }
+ #start{
+     background-color:#2db81b;
+ }
+ 
+ #stop{
+     background-color: #e70000;
+ }
+ #reset{
+     background-color: #00b7ff;
+ }
